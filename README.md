@@ -30,6 +30,8 @@ Componentes usados no circuito:
 
 O sensor fica posicionado em um ponto fixo em uma posição de cima, apontado para baixo, para medir a distância da maré em relação ao sensor. Ao ser feita a medição é possível a classificação se a maré está alta, mediana ou baixa.
 
+A partir da captura desses dados, é possível realizar estudos que analisam durante certo período de tempo as marés e chegar a conclusões concretas sobre a variação da maré.
+
 
 | Distância | Status exibido |
 |:----:| ----------------- | 
