@@ -26,6 +26,8 @@ Componentes usados no circuito:
 - Sensor de distância ultrassônico
 - Jumper Cables
 
+- [![imagem-2024-05-28-000806210.png](https://i.postimg.cc/brjwpBrz/imagem-2024-05-28-000806210.png)](https://postimg.cc/LYNpVvj7)
+
 ## Lógica
 
 O sensor fica posicionado em um ponto fixo em uma posição de cima, apontado para baixo, para medir a distância da maré em relação ao sensor. Ao ser feita a medição é possível a classificação se a maré está alta, mediana ou baixa.
