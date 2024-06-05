@@ -40,3 +40,5 @@ A partir da captura desses dados, é possível realizar estudos que analisam dur
 |Menor que 150cm| Maré Baixa |
 |Menor que 100cm e maior que 250cm| Maré mediana | 
 |Acima de 250cm| Maré Alta | 
+
+**IMPORTANTE: As medidas apresentadas não são estimativas aproximadas**
