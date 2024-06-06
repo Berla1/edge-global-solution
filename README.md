@@ -26,7 +26,7 @@ Componentes usados no circuito:
 - Sensor de distância ultrassônico
 - Jumper Cables
 
-- [![imagem-2024-05-28-000806210.png](https://i.postimg.cc/brjwpBrz/imagem-2024-05-28-000806210.png)](https://postimg.cc/LYNpVvj7)
+ [![imagem-2024-05-28-000806210.png](https://i.postimg.cc/brjwpBrz/imagem-2024-05-28-000806210.png)](https://postimg.cc/LYNpVvj7)
 
 ## Lógica
 
