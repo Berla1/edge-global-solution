@@ -12,9 +12,10 @@ https://www.tinkercad.com/things/kjca7DPbL3g-medidor-de-nivel-de-mare-
 Após clicar em "Iniciar Simulação", clique no sensor ultrassônico. O Tinkercad disponibiliza uma bolinha que simula a distância de um objeto, sinta-se livre para mover o "objeto" para que o display LCD seja atualizado com os valores em centímetros.
 
 ## Autores
-- [Camila Feitosa](https://github.com/camfeitosa)
-- [Gustavo Berlanga](https://www.github.com/berla1)
-- [Vinicius Gardim](https://www.github.com/gardim1)
+- [Camila Feitosa](https://github.com/camfeitosa) RM: 558808
+- [Gustavo Berlanga](https://www.github.com/berla1) RM: 555298
+- [Vinicius Gardim](https://www.github.com/gardim1) RM: 556013
+
 
 ## Dependências
 
