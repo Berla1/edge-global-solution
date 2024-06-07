@@ -42,3 +42,56 @@ A partir da captura desses dados, é possível realizar estudos que analisam dur
 |Acima de 250cm| Maré Alta | 
 
 **IMPORTANTE: As medidas apresentadas não são estimativas aproximadas**
+
+**Código Fonte:**
+```
+#include <LiquidCrystal.h>
+#define TRIGGER_PIN 5 // definindo trigger pin do sensor
+#define ECHO_PIN 4 // definindo echo pin do sensor
+
+LiquidCrystal lcd(12, 11, 10, 9, 8, 7, 6); // definindo portas do lcd
+
+float velocidade = 0.0172316; // definindo variáveis
+float duracao;
+float distancia;
+
+void setup(){
+  pinMode(TRIGGER_PIN, OUTPUT); //define trigger pin como output
+  pinMode(ECHO_PIN, INPUT); // definine echo pin como input
+  lcd.begin(16,2); // inicia o display lcd
+  lcd.clear(); // limpa o lcd
+}
+
+void loop(){
+  digitalWrite(TRIGGER_PIN, 1); // liga o trigger pin
+  digitalWrite(TRIGGER_PIN, 0); // desliga o trigger pin
+  duracao = pulseIn(ECHO_PIN, 1); // recebe o sinal que veio do trigger pin
+  distancia = duracao * velocidade; // calcula baseado na duracao do echo pin e na velocidade do som
+
+  lcd.display();
+
+  
+  if(distancia < 150){ // se a distancia for maior que 150cm
+ 
+    lcd.setCursor(0,0);
+    lcd.print("Mare alta!   ");
+    lcd.setCursor(0,1);
+    lcd.print("Distancia CM:");
+    lcd.print(distancia);   
+  } 
+  else if(distancia > 150 && distancia < 250){ // se a distancia estiver entre 150cm e 250cm
+    lcd.setCursor(0,0); 
+    lcd.print("Mare mediana!");
+    lcd.setCursor(0,1);
+    lcd.print("Distancia CM:");
+    lcd.print(distancia);
+  }
+  else{ // se a distancia for maior que 250cm
+  lcd.setCursor(0,0);
+    lcd.print("Mare baixa!    ");
+    lcd.setCursor(0,1);
+    lcd.print("Distancia CM:");
+    lcd.print(distancia);
+  }
+}
+```
